@@ -30,7 +30,6 @@ function App() {
             <ResultsCount />
             <SortingControls />
           </SidebarTop>
-
           <JobListSearch />
           <PaginationControls />
         </Sidebar>

@@ -6,7 +6,7 @@ export default function PaginationControls() {
   const {
     currentPage,
     totalNumberOfPages,
-    handlePageChange: onClick,
+    handleChangePage: onClick,
   } = useJobItemsContext();
   return (
     <section className="pagination">
